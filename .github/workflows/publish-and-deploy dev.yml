@@ -7,8 +7,8 @@ on:
 env:
     REGISTRY: ghcr.io
     IMAGE_NAME: sparkobbable/admin-ui:dev
-    REACT_APP_BASE_URL: https://admindev.deutschirischespielemanufaktur.com
-    REACT_APP_API_URL: https://admindev.deutschirischespielemanufaktur.com/api
+    REACT_APP_BASE_URL: https://dev-admin.deutschirischespielemanufaktur.com
+    REACT_APP_API_URL: https://dev-admin.deutschirischespielemanufaktur.com/api
 
 jobs:
     publish:
