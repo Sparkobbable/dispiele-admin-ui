@@ -24,7 +24,7 @@ export class ApiService {
 			method: "get",
 			url:
 				this.API_URL +
-				`/oauthproxy/token?code=${code}&redirect_uri=${
+				`/authproxy/token?code=${code}&redirect_uri=${
 					process.env.REACT_APP_BASE_URL + "/home"
 				}`,
 		});
