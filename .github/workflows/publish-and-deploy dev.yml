@@ -32,7 +32,7 @@ jobs:
 
         steps:
             - name: add cloudflared
-              uses: AnimMouse/setup-cloudflared@v2
+              uses: Sparkobbable/setup-cloudflared@main
             - name: setup connector
               run: sudo cloudflared service install ${{secrets.CLOUDFLARED_TUNNEL_TOKEN}}
             - name: install id rsa
